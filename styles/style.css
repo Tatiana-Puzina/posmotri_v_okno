@@ -13,7 +13,7 @@ html {
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
-  padding: 0 30px 120px;
+  padding: 0 30px;
   justify-content: center;
   align-items: center;
   color: #fff;
@@ -68,7 +68,7 @@ a:focus {
   flex-direction: row;
   gap: 30px;
   min-height: 534px;
-  align-items: end;  
+  align-items: end;
 }
 
 .result {
@@ -296,4 +296,10 @@ a:focus {
   display: inline-block;
   background-color: #545050;
   outline: none;
+  text-decoration: none;
+}
+
+.search-form__label:active .search-form__label-text,
+.content__card-link:active * {
+  text-decoration: none;
 }
